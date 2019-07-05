@@ -36,3 +36,5 @@ create table freelancer (
        add constraint freelancer_skills_freelancer_fkey
        foreign key (freelancer_id)
        references freelancer;
+
+
